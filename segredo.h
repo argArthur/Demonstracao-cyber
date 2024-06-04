@@ -1,8 +1,8 @@
 #include <string.h>
-#include <stdio.h>
 
-#define senha "bcc unesp 2024"
+#define pass "ncc unesp 2024"
 
-int senhaCorreta(char input[128]) {
-    return strcmp(senha, input) == 0;
+void lerSenha(char buff[128]) {
+  strcpy(buff, pass);
 }
+
