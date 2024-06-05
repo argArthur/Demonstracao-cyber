@@ -1,8 +1,8 @@
 #include <string.h>
 
-#define pass "ncc unesp 2024"
+#define pass "bcc unesp 2024"
 
-void lerSenha(char buff[128]) {
+void lerSenha(char buff[64]) {
   strcpy(buff, pass);
 }
 

